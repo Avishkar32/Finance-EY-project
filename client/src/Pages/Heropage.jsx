@@ -132,7 +132,7 @@ const translations = {
         {
           title: "Financial Advisor - Chatbot",
           description: "Get personalized financial advice from our AI-powered chatbot",
-          link: "/advisor",
+          link: "/chatbot",
           icon: Bot,
         },
         {

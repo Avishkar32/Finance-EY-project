@@ -26,6 +26,9 @@ import DairyForumPage from "./Pages/dairyforum";
 import SuccessStories from "./Pages/SuccessStoriesAvi";
 import QASessions from "./Pages/qna";
 
+import QRCodeGenerator from "./Pages/QRCodeGenerator";
+import QRCodeScanner from "./Pages/QRreader";
+
 function App() {
   return (
     <div className="App">
@@ -55,6 +58,8 @@ function App() {
           <Route path="/dairy" element={<DairyForumPage />} />
           <Route path="/stories" element={<SuccessStories />} />
           <Route path="/qna" element={<QASessions />} />
+          <Route path="/qr" element={<QRCodeGenerator />} />
+          <Route path="/qrreader" element={<QRCodeScanner />} />
 
         </Routes>
       </AuthProvider>

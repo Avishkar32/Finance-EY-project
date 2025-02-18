@@ -167,10 +167,10 @@ const questions = [
     { id: 15, text: "If yes, how much is the total amount of your savings?", type: "voice", voicePrompt: "Say the total amount of your savings aloud." },
     { id: 16, text: "Do you have any outstanding loans?", type: "options", options: ["Yes", "No"] },
     { id: 17, text: "If yes, please specify the loan type, amount, interest rate, and remaining tenure.", type: "voice", voicePrompt: "Describe your loans aloud." },
-    { id: 18, text: "Are there challenges in paying back these loans?", type: "options", options: ["Yes", "No"] },
-    { id: 19, text: "If yes, please describe the challenges.", type: "voice", voicePrompt: "Say the challenges aloud." },
-    { id: 20, text: "What are your short-term financial goals (like repairs, seeds, or equipment)?", type: "voice", voicePrompt: "Say your short-term goals aloud." },
-    { id: 21, text: "What are your long-term financial goals (like saving for education, starting a new business)?", type: "voice", voicePrompt: "Say your long-term goals aloud." },
+    // { id: 18, text: "Are there challenges in paying back these loans?", type: "options", options: ["Yes", "No"] },
+    // { id: 19, text: "If yes, please describe the challenges.", type: "voice", voicePrompt: "Say the challenges aloud." },
+    // { id: 20, text: "What are your short-term financial goals (like repairs, seeds, or equipment)?", type: "voice", voicePrompt: "Say your short-term goals aloud." },
+    // { id: 21, text: "What are your long-term financial goals (like saving for education, starting a new business)?", type: "voice", voicePrompt: "Say your long-term goals aloud." },
     { id: 22, text: "Please Ask your question. In what regards do you need our advice?", type: "options", type: "voice", voicePrompt: "In what regard do you want our advice aloud."  },
   ];
 
